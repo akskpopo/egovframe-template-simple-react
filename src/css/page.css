@@ -29,7 +29,7 @@
     .P_MAIN .colbox::after {content: ""; display: block; clear: both;}
     .P_MAIN .colbox > * {float: left;}
     .P_MAIN .colbox .left_col {width: 620px; margin-right: 60px; padding-top: 30px;}
-    .P_MAIN .colbox .left_col img {max-width: 100%; border-radius: 38px; box-shadow: 8px 8px 13px #ccc;}
+    .P_MAIN .colbox .left_col .img {max-width: 100%; border-radius: 38px; box-shadow: 8px 8px 13px #ccc;}
     .P_MAIN .colbox .right_col {width: 620px; padding-top: 25px;}
 
     .P_MAIN .mini_board {position: relative;}
@@ -67,10 +67,14 @@
     .P_MAIN .banner_bot > div p {margin-top: 23px; color: #666; font-size: 20px; line-height: 30px;}
     .P_MAIN .banner_bot > div a {display: inline-block; height: 70px; color: #666; font-size: 20px; line-height: 70px;}
     .P_MAIN .banner_bot > div a::before {content: ""; display: inline-block; width: 20px; height: 20px; margin-right: 9px; background: url(css/images/ico_more.png) no-repeat; vertical-align: -2px;}
-    .P_MAIN .banner_bot > div.b1 > div {background: url(css/images/ico_bn01.png) no-repeat center 60px;}
-    .P_MAIN .banner_bot > div.b2 > div {background: url(css/images/ico_bn02.png) no-repeat center 60px;}
-    .P_MAIN .banner_bot > div.b3 > div {background: url(css/images/ico_bn03.png) no-repeat center 60px;}
-    .P_MAIN .banner_bot > div.b4 > div {background: url(css/images/ico_bn04.png) no-repeat center 60px;}
+    /* .P_MAIN .banner_bot > div.b1 > div {background: url(css/images/ico_bn01.png) no-repeat center 60px;} */
+    .P_MAIN .banner_bot > div.b1 > div {background: url(css/images/samples/icons8-water-level-65.png) no-repeat center 80px; background-size: 100px 100px;}
+    /* .P_MAIN .banner_bot > div.b2 > div {background: url(css/images/ico_bn02.png) no-repeat center 60px;} */
+    .P_MAIN .banner_bot > div.b2 > div {background: url(css/images/samples/DeviceBig.png) no-repeat center 30px; background-size: 60% 50%;}
+    /* .P_MAIN .banner_bot > div.b3 > div {background: url(css/images/ico_bn03.png) no-repeat center 60px;} */
+    .P_MAIN .banner_bot > div.b3 > div {background: url(css/images/samples/icons8-worldwide-location.gif) no-repeat center 80px; background-size: 90px 90px;}
+    /* .P_MAIN .banner_bot > div.b4 > div {background: url(css/images/ico_bn04.png) no-repeat center 60px;} */
+    .P_MAIN .banner_bot > div.b4 > div {background: url(css/images/samples/icons8-combo-chart.gif) no-repeat center 80px;  background-size: 90px 90px;}
     
 
     /* 오늘의 행사 */

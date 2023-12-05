@@ -60,11 +60,19 @@ function EgovHeader({ loginUser, onChangeLogin }) {
         // <!-- header -->
         <div className="header">
             <div className="inner">
-                <Link to={URL.MAIN} className="ico lnk_go_template" target="_blank">홈페이지 템플릿 소개 페이지로 이동</Link>
+                {/* <Link to={URL.MAIN} className="ico lnk_go_template" target="_blank">홈페이지 템플릿 소개 페이지로 이동</Link> */}
 
                 <h1 className="logo">
-                    <Link to={URL.MAIN} className="w"><img src="/assets/images/logo_w.png" alt="표준프레임워크포털 eGovFrame 심플홈페이지" /></Link>
-                    <Link to={URL.MAIN} className="m"><img src="/assets/images/logo_m.png" alt="표준프레임워크포털 eGovFrame 심플홈페이지" /></Link>
+                    {/* <Link to={URL.MAIN} className="w"><img src="/assets/images/logo_w.png" alt="표준프레임워크포털 eGovFrame 심플홈페이지" /></Link> */}
+                    <div style={{display: "flex"}}>
+                        <Link to={URL.MAIN} className="w" ><img src="/assets/images/samples/square-logo.png" alt="한국융합아이티" width={80} height={80}  />
+                        </Link>
+                        <Link to={URL.MAIN} className="w" ><div style={{color: 'black', marginTop: 30, marginLeft: 20, alignSelf:"center"}}>한국융합아이티</div>
+                        </Link>
+                        
+                        <Link to={URL.MAIN} className="m"><img src="/assets/images/logo_m.png" alt="표준프레임워크포털 eGovFrame 심플홈페이지" /></Link>
+                    
+                    </div>
                 </h1>
 
                 <div className="gnb">
